@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brend freelance interactive multimedia designer/developer</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/screen.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/images/icon.ico">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+</head>
+
+<body>
+    <header id="top">
+        <div id="insideHeader">
+            <img src="images/Logo.svg" alt="Brend logo" id="logo">
+            <h1>brend <span>van dessel</span></h1>
+            <h2>freelance interactive multimedia <br/> designer/developer</h2>
+        </div>
+    </header>
+
+    <div id="navBlock">
+        <div id="insideNavBlock">
+
+            <div id="hamburger"></div>
+            <div id="menu">
+                <p>menu</p>
+            </div>
+
+            <nav id="fullNav">
+                <a href="#about">about</a>
+                <a href="#skills">skills</a>
+                <a href="#work" id="fullNavWork">projects</a>
+                <a href="#contact">contact</a>
+            </nav>
+            <br class="clearfix">
+            <a href="#top" id="logoFixed" class="pullDownLinks"></a>
+        </div>
+    </div>
+
+    <nav id="pullDown">
+        <a href="#about" class="pullDownLinks">about</a>
+        <a href="#skills" class="pullDownLinks">skills</a>
+        <a href="#work" class="pullDownLinks">projects</a>
+        <a href="#contact" class="pullDownLinks">contact</a>
+    </nav>
+
+    <div class="arrowDown"></div>
+
+    <div id="superSection">
+        <div class="anchor" id="about"></div>
+        <section id="hi" class="contentBlock">
+            <h2>Hi, my name is Brend and I would like to build awesome stuff for you.</h2>
+        </section>
+        <a href="#contact" class="hireMe" id="baselineBtn">contact me</a>
+        <section class="contentBlock" id="eye">
+            <h2 class="title">eye <br>for design</h2>
+
+            <p>
+                Need a new logo or a complete rebranding. then I would like te help you with that. I am a student, Interactive Multimedia Design in Mechelen, Belgium.
+                <br>
+                <br>Here we learn about graphic design, webdevelopment, user experience, usability and much more. And I love it, but my real passion is mobile app design and development.
+                <br>
+                <br>
+                <a href="#contact" class="hireMe">Hire me for design stuff</a>
+        </section>
+
+        <div id="spacer"></div>
+
+        <section class="contentBlock" id="heart">
+            <h2 class="title">developer by <br>heart</h2>
+            <p>
+                I like designing, but love developing. Transforming a static mockup into an interactive product.
+                <br>
+                <br>Developing interactive solutions based on your needs. An immersive experience in form of a website, an app or a game.
+                <br>
+                <br>
+                <a href="#contact" class="hireMe">Hire me for dev stuff</a>
+
+        </section>
+        <div class="anchor" id="skills"></div>
+        <div id="outsideSkills">
+            <section class="contentBlock">
+                <h2 class="title">skills</h2>
+                <ul>
+                    <li>
+                        <img src="images/brushPencil.svg" alt="a brush and a pencil">
+                        <div>
+                            <h2>Graphic Design</h2>
+                            <h3>Photoshop, Illustrator, Cinema4D</h3>
+                        </div>
+                        <br class="clearfix">
+                    </li>
+                    <li>
+                        <img src="images/motion.svg" alt="a brush and a pencil">
+                        <div>
+                            <h2>Motion Graphics</h2>
+                            <h3>Premiere, After Effects, Cinema4D</h3>
+                        </div>
+                        <br class="clearfix">
+                    </li>
+                    <li>
+                        <img src="images/dev.svg" alt="a brush and a pencil">
+                        <div>
+                            <h2>Development</h2>
+                            <h3>HTML, CSS, Jquery, C#, Android, Unity3D</h3>
+                        </div>
+                        <br class="clearfix">
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="anchor" id="work"></div>
+        <section class="contentBlock">
+            <h2 id="projects" class="title">projects</h2>
+            <br class="clearfix">
+        </section>
+
+        <div id="grid">
+            <ul id="cel">
+                <li><a id="lucifer" href="projects.html">lucifer sketch</a>
+                </li>
+                <li><a id="sketch" href="projects.html">interior sketch</a>
+                </li>
+                <li><a id="vectorSelfie1" href="projects.html">vector selfie</a>
+                </li>
+                <li><a id="logoDesign" href="projects.html">logo design</a>
+                </li>
+                <li><a id="nSpace" href="projects.html">negative space</a>
+                </li>
+                <li><a id="typo" href="projects.html">typography</a>
+                </li>
+                <li><a id="wallpaper" href="projects.html">wallpaper</a>
+                </li>
+                <li><a id="lp" href="projects.html">long play</a>
+                </li>
+                <li><a id="photography" href="projects.html">photography</a>
+                </li>
+                <li><a id="modeling" href="#">3D modeling</a>
+                </li>
+            </ul>
+            <br class="clearfix">
+        </div>
+        <div class="anchor" id="contact"></div>
+        <section class="contentBlock">
+            <h2 class="title">contact</h2>
+            <form method="post" action="http://www.goodbytes.be/processform.php">
+                <p id="errorMessenger">* all fields are necessary, so don't skip one *</p>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Brend" />
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Van Dessel" />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="brend@vandessel.com" />
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="I want to hire you."></textarea>
+
+                <button type="button">Send</button>
+
+            </form>
+        </section>
+
+        <footer>
+            <ul>
+                <li id="phonenumber">
+                    <img src="images/smartphone.svg" alt="call me icon">
+                    <p><strong>Call me on this number</strong>
+                        <br>04/76-880-717</p>
+                </li>
+                <li id="map">
+                    <img src="images/map.svg" alt="location icon">
+                    <p><strong>Come and find me at</strong>
+                        <br>Wildemansstraat 28,
+                        <br>2550 Kontich (Belgium)</p>
+                </li>
+                <li id="socialmedia">
+                    <div>
+                        <a id="twitter" href="https://twitter.com/Brend_VD">twitter</a>
+                        <a id="facebook" href="https://www.facebook.com/brend.vandessel">facebook</a>
+                        <a id="googleplus" href="https://plus.google.com/117116816691062753944/about">googleplus</a>
+                        <a id="linkedin" href="https://www.linkedin.com/pub/brend-van-dessel/5a/b54/981">LinkedIn</a>
+                    </div>
+
+                    <p><strong>Follow me on these channels</strong>
+                    </p>
+                </li>
+            </ul>
+            <br class="clearfix">
+        </footer>
+    </div>
+    <div id="backToTop">
+        <a id="logoBackToTop" href="#top">back to top</a>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+    </script>
+
+    <script src="js/script.js"></script>
+                  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58641572-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>

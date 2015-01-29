@@ -1,0 +1,652 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #feebe6;
+    font-family: 'Open Sans', sans-serif;
+    color: #feebe6;
+    text-align: left;
+    font-weight: 300;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow-x: hidden;
+}
+header {
+    background-color: #F6503A;
+    height: 86vh;
+    min-height: 400px;
+    margin-bottom: -1px;
+}
+#insideHeader {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 62px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#insideHeader #logo {
+    margin-bottom: 1em;
+    width: 80%;
+    max-width: 300px;
+}
+#insideHeader h1 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+#insideHeader h1 span {
+    white-space: nowrap;
+}
+#insideHeader h2 {
+    font-size: 1.4em;
+}
+#navBlock {
+    background-color: #F6503A;
+    width: 100%;
+    height: 62px;
+    z-index: 999;
+}
+#hamburger {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/mobileNav.png);
+    background-size: cover;
+    margin: 16px;
+    position: fixed;
+    top: 0;
+}
+#menu p {
+    font-size: 30px;
+    color: #feebe6;
+    position: fixed;
+    top: 2px;
+    left: 60px;
+}
+#fullNav {
+    display: none;
+}
+#pullDown {
+    background-color: #f76d5a;
+    position: fixed;
+    top: 62px;
+    width: 100%;
+    z-index: 999;
+}
+#pullDown a:link,
+#pullDown a:visited,
+#pullDown a:hover,
+#pullDown a:active {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 0;
+    color: #feebe6;
+    font-size: 1.4em;
+}
+.arrowDown {
+    width: 0px;
+    height: 0px;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 16px solid #F6503A;
+    margin: -1px auto 20px auto;
+}
+.title {
+    color: #F6503A;
+    font-weight: 700;
+    font-size: 2.4em;
+    padding: 1em 0 1em 0;
+    text-align: left;
+    line-height: 1.4em;
+}
+p {
+    color: brown;
+    line-height: 1.8em;
+    padding-bottom: 2em;
+}
+.clearfix {
+    clear: both;
+    display: block;
+    height: 0;
+}
+#logoFixed {
+    display: block;
+    position: fixed;
+    top: -43px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-image: url(../images/LogoFixed.svg);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    height: 140px;
+    width: 126px;
+}
+.contentBlock {
+    padding: 1em;
+}
+#hi {
+    max-width: 940px;
+    text-align: center;
+    color: #435f71;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 1em;
+    line-height: 1.4em;
+}
+#eye {
+    background-image: url(../images/Eye.svg);
+    background-repeat: no-repeat;
+    background-size: 430px;
+    background-position: right -100px top 80px;
+}
+#heart {
+    background-image: url(../images/Heart.svg);
+    background-repeat: no-repeat;
+    background-size: 580px;
+    background-position: -150px bottom;
+}
+#heart p,
+#heart h2 {
+    text-align: right;
+}
+#baselineBtn.hireMe {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+#eye .hireMe {
+    float: none;
+}
+.hireMe:link,
+.hireMe:visited {
+    display: table;
+    text-decoration: none;
+    background-color: #435f71;
+    color: #feebe6;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+    float: right;
+    font-weight: 500;
+}
+.hireMe:hover,
+.hireMe:active {
+    background-color: #304451;
+}
+#spacer {
+    background-image: url(../images/aboutBackground.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.anchor {
+    position: absolute;
+    margin: -4em;
+}
+#outsideSkills .title {
+    margin-bottom: 1em;
+}
+#outsideSkills li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5em;
+}
+#outsideSkills li img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+#outsideSkills li h2 {
+    color: #212F38;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 1em 0;
+}
+#outsideSkills li h3 {
+    color: #212F38;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+#projects {
+    float: right;
+}
+#grid {
+    background-color: #435f71;
+    margin-bottom: 10px;
+}
+#cel a {
+    width: 50%;
+    padding: 22% 0;
+    float: left;
+    display: block;
+}
+#cel a:link,
+#cel a:visited,
+#cel a:hover,
+#cel a:active {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#cel #modeling {
+    color: white;
+}
+#cel li {
+    background-color: #435f71;
+    opacity: 0.5;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+}
+#cel li:hover {
+    opacity: 1;
+    text-indent: -9999px
+}
+#lucifer{
+ background-image: url(../images/sketch_lucifers1.jpg);
+    background-size: cover;
+}
+
+#vectorSelfie1 {
+    background-image: url(../images/selfie1.gif);
+    background-size: cover;
+}
+#logoDesign {
+    background-image: url(../images/logoDesign2.jpg);
+    background-size: cover;
+}
+#sketch {
+    background-image: url(../images/interior_1.jpg);
+    background-size: cover;
+}
+#nSpace {
+    background-image: url(../images/negativespace.png);
+    background-size: cover;
+}
+#typo {
+    background-image: url(../images/Typo1.jpg);
+    background-size: cover;
+}
+#wallpaper {
+    background-image: url(../images/wallpaper-01.png);
+    background-size: cover;
+}
+#lp {
+    background-image: url(../images/lphoes1.png);
+    background-size: cover;
+}
+#photography{
+ background-image: url(../images/structure.jpg);
+    background-size: cover;
+}
+#modeling {
+    background-image: url(../images/modeling.jpg);
+    background-size: cover;
+}
+.test {
+    background-image: url(../images/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form {
+    margin-bottom: 2em;
+}
+form label {
+    color: brown;
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+form input {
+    width: 96%;
+    padding: 2%;
+    font-size: 1.2em;
+    color: #435f71;
+    border: 1px solid #435f71;
+    background-color: #fff8f6;
+}
+form textarea {
+    width: 96%;
+    resize: none;
+    padding: 2%;
+    height: 14em;
+    border: 1px solid #435f71;
+    font-size: 1.2em;
+    color: #435f71;
+    background-color: #fff8f6;
+}
+form button {
+    width: 100%;
+    font-size: 1.2em;
+    color: #FCDFD4;
+    background-color: #f76d5a;
+    padding: 2%;
+    margin: 1em 0;
+    border: none;
+}
+#errorMessenger {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #435f71;
+    padding-bottom: 4em;
+}
+footer ul {
+    text-align: center;
+}
+footer li {
+    padding: 4em 1em 0 1em;
+}
+footer li p {
+    color: #212F38;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 1em 0 0 0;
+    line-height: 1.4em;
+    clear: both;
+}
+footer li p strong {
+    font-weight: 600;
+}
+#phonenumber img {
+    width: 6em;
+    height: 200px;
+}
+#map img {
+    width: 12em;
+    height: 200px;
+}
+#socialmedia div {
+    width: 200px;
+    margin: 0 auto;
+}
+#socialmedia div a {
+    background-repeat: no-repeat;
+    display: block;
+    width: 96px;
+    height: 6em;
+    float: left;
+    background-size: 100%;
+    border: 2px solid #435f71;
+    text-indent: -9999px;
+}
+#twitter {
+    background-image: url(../images/twitter.svg);
+}
+#facebook {
+    background-image: url(../images/facebook.svg);
+}
+#googleplus {
+    background-image: url(../images/googelplus.svg);
+}
+#linkedin {
+    background-image: url(../images/linkedin.svg);
+}
+.clearfix {
+    clear: both;
+    height: 1px;
+}
+#backToTop {
+    height: 62px;
+    background-color: #212F38;
+    padding-right: 20px;
+}
+#logoBackToTop {
+    display: block;
+    background-image: url(../images/logoBackToTop.svg);
+    background-repeat: no-repeat;
+    background-size: 126px;
+    background-position: 86px 0;
+    position: relative;
+    bottom: 17px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 39px;
+    width: 300px;
+    text-indent: 212px;
+    padding-top: 40px;
+    color: #feebe6;
+    text-decoration: none;
+}
+#logoBackToTop:hover {
+    text-decoration: underline;
+}
+/* added in javascript ---------------------------------*/
+
+.stickyNav {
+    position: fixed;
+    top: 0;
+}
+.sectionMargin {
+    margin-top: 77px;
+}
+/* Mediaqueries ---------------------------------------*/
+
+@media only screen and (min-width: 600px) {
+    #hi{
+        font-size: 2.4em;
+    }
+    
+    #eye {
+        background-size: 500px;
+        background-position: right -60px top 60px;
+    }
+    #heart {
+        background-size: 600px;
+        background-position: -150px bottom;
+    }
+    #cel a {
+        width: 33.33%;
+        padding: 15.33% 0;
+    }
+    #cel a:link,
+    #cel a:visited,
+    #cel a:hover,
+    #cel a:active {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (min-height: 700px) {
+    header {
+        height: 90vh;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #navBlock {
+        margin: 0 auto;
+        text-align: center;
+        height: 62px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #hamburger {
+        display: none;
+    }
+    #menu {
+        visibility: hidden;
+    }
+    #fullNav {
+        display: block;
+        height: 30px;
+        width: 600px;
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+    #fullNav a:link,
+    #fullNav a:visited,
+    #fullNav a:hover,
+    #fullNav a:active {
+        text-decoration: none;
+        color: #FDDDD5;
+        font-size: 1.2em;
+        width: 150px;
+        display: block;
+        float: left;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #eye {
+        clear: both;
+    }
+    #eye p,
+    #heart p {
+        width: 60%;
+    }
+    #heart p {
+        margin-left: 40%;
+    }
+    #eye {
+        background-size: 600px;
+        background-position: right -60px top 0px;
+    }
+    #heart {
+        background-size: 700px;
+        background-position: -100px bottom;
+    }
+    #outsideSkills li {
+        width: 100%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    #outsideSkills li img {
+        width: 250px;
+        margin-bottom: 1em;
+        float: left;
+    }
+    #outsideSkills li div {
+        float: right;
+        display: inline-block;
+        padding-left: 2em;
+        width: 400px;
+    }
+    form label {
+        width: 25%;
+        margin-top: 1.8em;
+        float: left;
+    }
+    form input {
+        width: 70%;
+        padding: 2%;
+        margin-top: 1em;
+    }
+    form textarea {
+        width: 70%;
+        margin-top: 1em;
+    }
+    form button {
+        width: 74%;
+        padding: 2%;
+        margin: 1em 0;
+        margin-left: 25%
+    }
+    #cel a {
+        width: 25%;
+        padding: 11% 0;
+    }
+    footer ul {
+        width: 706px;
+        margin: 0 auto;
+    }
+    footer li {
+        width: 200px;
+        float: left;
+    }
+    #phonenumber img {
+        width: 4em;
+        height: 200px;
+    }
+    #map img {
+        width: 10em;
+        height: 200px;
+    }
+    #socialmedia div {
+        width: 160px;
+        margin: 0 auto;
+        padding-top: 42px
+    }
+    #socialmedia div a {
+        width: 76px;
+        height: 76px;
+    }
+}
+@media only screen and (min-width: 960px) {
+    .contentBlock {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    #heart {
+        background-size: 700px;
+        background-position: 0 bottom;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #outsideSkills li {
+        width: 800px;
+        text-align: left;
+    }
+    #cel a {
+        width: 20%;
+        padding: 9% 0;
+    }
+    footer ul {
+        width: 960px;
+        margin: 0 auto;
+    }
+    footer li {
+        width: 288px;
+        float: left;
+    }
+    #phonenumber img {
+        width: 6em;
+        height: 200px;
+    }
+    #map img {
+        width: 14em;
+        height: 200px;
+    }
+    #socialmedia div {
+        width: 200px;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+    #socialmedia div a {
+        width: 96px;
+        height: 96px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #cel a {
+        width: 16.66%;
+        padding: 7.66% 0;
+    }
+}
+@media only screen and (max-height: 600px) {
+    #insideHeader #logo {
+        width: 200px;
+    }
+}

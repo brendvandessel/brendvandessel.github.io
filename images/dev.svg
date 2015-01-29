@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 520 328.7" enable-background="new 0 0 520 328.7" xml:space="preserve">
+<g id="Layer_1">
+	<g id="XMLID_1_">
+		<g>
+			<path fill="#435F71" d="M515,19v272c0,7.7-6.3,14-14,14h-82c-7.7,0-14-6.3-14-14V159c0-7.7-6.3-14-14-14h-52c-7.7,0-14-6.3-14-14
+				V19c0-7.7,6.3-14,14-14h162C508.7,5,515,11.3,515,19z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#435F71" stroke-width="10" stroke-miterlimit="10" d="M131,145H19c-7.7,0-14-6.3-14-14V19
+				c0-7.7,6.3-14,14-14h112c7.7,0,14,6.3,14,14v112C145,138.7,138.7,145,131,145z"/>
+			<path fill="none" stroke="#435F71" stroke-width="10" stroke-miterlimit="10" d="M291,145H179c-7.7,0-14-6.3-14-14V19
+				c0-7.7,6.3-14,14-14h112c7.7,0,14,6.3,14,14v112C305,138.7,298.7,145,291,145z"/>
+			<path fill="none" stroke="#435F71" stroke-width="10" stroke-miterlimit="10" d="M211,305H99c-7.7,0-14-6.3-14-14V179
+				c0-7.7,6.3-14,14-14h112c7.7,0,14,6.3,14,14v112C225,298.7,218.7,305,211,305z"/>
+			<path fill="none" stroke="#435F71" stroke-width="10" stroke-miterlimit="10" d="M371,305H259c-7.7,0-14-6.3-14-14V179
+				c0-7.7,6.3-14,14-14h112c7.7,0,14,6.3,14,14v112C385,298.7,378.7,305,371,305z"/>
+			<path fill="none" stroke="#435F71" stroke-width="10" stroke-miterlimit="10" d="M325,19v112c0,7.7,6.3,14,14,14h52
+				c7.7,0,14,6.3,14,14v132c0,7.7,6.3,14,14,14h82c7.7,0,14-6.3,14-14V19c0-7.7-6.3-14-14-14H339C331.3,5,325,11.3,325,19z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+	<text transform="matrix(1 0 0 1 25 65)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">&lt;</text>
+	<text transform="matrix(1 0 0 1 185 65)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">&gt;</text>
+	<text transform="matrix(1 0 0 1 105 225)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">{</text>
+	<text transform="matrix(1 0 0 1 265 225)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">}</text>
+	<text transform="matrix(1 0 0 1 105 125)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">;</text>
+	<text transform="matrix(1 0 0 1 265 125)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">.</text>
+	<text transform="matrix(1 0 0 1 185 285)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">,</text>
+	<text transform="matrix(1 0 0 1 345 295)" fill="#435F71" font-family="'Helvetica-Bold'" font-size="70">/</text>
+</g>
+</svg>
