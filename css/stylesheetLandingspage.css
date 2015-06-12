@@ -1,0 +1,300 @@
+body {
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+header,
+footer {
+    background-image: url(../images/headerImage.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 50px 0;
+}
+#headerLogo {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin: -2em 0 4em 0;
+    padding: 0 1em;
+    font-size: 2em;
+    font-weight: bold;
+    color: #E0F2F6;
+    line-height: 1.4em;
+}
+h1 span {
+    white-space: nowrap;
+}
+#headerLogoMiddelheim {
+    width: 240px;
+    display: block;
+    margin: 0 auto 0px auto;
+}
+#headerIphone {
+    display: none;
+}
+h2 {
+    padding: 28px;
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.4em;
+}
+#watH2 {
+    background-color: #59C4C9;
+}
+#wat {
+    background-color: #B4E0E3;
+}
+p {
+    padding: 2.4em;
+    line-height: 1.4em;
+    color: #fff;
+    font-size: 1.3em;
+}
+#insideWat {
+    background-image: url(../images/iphoneRouteSmall_03.png);
+    background-repeat: no-repeat;
+    background-position: top 320px center;
+    background-size: 250px;
+    padding-bottom: 320px;
+}
+#hoeH2 {
+    background-color: #CE2D44;
+}
+#hoe {
+    background-color: #D85C5C;
+    padding-bottom: 1em;
+}
+#iconen div {
+    width:
+}
+#iconen img {
+    margin: 0 auto;
+    display: block;
+    width: 80px
+}
+h4 {
+    text-align: center;
+    padding: 1em 1em 2em 1em;
+    color: #F6CFC7;
+    font-size: 1.4em;
+}
+#demoH2 {
+    background-color: #F37D34;
+}
+#demo {
+    background-color: #F79354;
+}
+#insideDemo {
+    padding-bottom: 3em;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    display: block;
+    padding: .5em 1em;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8em;
+    margin: 0 auto;
+    border: solid 2px #fff;
+    border-radius: 8px;
+}
+a:hover {
+    background-color: #59C4C9;
+}
+footer {
+    background-position: center bottom;
+}
+h3 {
+    padding: 2em 0 1em 0;
+    color: #fff;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    text-align: center;
+}
+#google,
+#ios {
+    display: block;
+    width: 250px;
+    height: 82px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin: 0em auto 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+#google {
+    background-image: url(../images/google1.png);
+}
+#ios {
+    background-image: url(../images/ios1.png);
+}
+#google:hover,
+#google:active {
+    background-image: url(../images/google2.png);
+    border-color: #59C4C9;
+}
+#ios:hover,
+#ios:active {
+    background-image: url(../images/ios2.png);
+    border-color: #59C4C9;
+}
+footer p {
+    display: block;
+    text-align: center;
+    padding: 1em;
+}
+.clearfix {
+    clear: both;
+}
+@media only screen and (min-width: 375px) {
+    #insideWat {
+        background-position: top 260px center;
+        padding-bottom: 360px;
+        background-size: 280px;
+    }
+}
+@media only screen and (min-width: 414px) {
+    #insideWat {
+        background-position: top 240px center;
+        padding-bottom: 370px;
+        background-size: 280px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #headerLogo {
+        width: 440px;
+    }
+    h1 {
+        font-size: 2.4em;
+    }
+    #insideWat {
+        background-position: top 40px left 350px;
+        padding-bottom: 140px;
+        background-size: 280px;
+    }
+    #insideWat p {
+        width: 260px;
+    }
+    #iconen{
+        width: 580px;
+        margin: 0 auto;
+    }
+    #iconen div {
+        width:50%;
+        float: left;
+    }
+    #iconen img {
+        margin: 0 auto;
+        display: block;
+        width: 80px
+    }
+    a,
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        margin-top: 150px
+    }
+    #btns {
+        width: 600px;
+        margin: 0 auto;
+    }
+    #insideDemo {
+        background-image: url(../images/iphoneOutline.png);
+        background-repeat: no-repeat;
+        background-position: top 180px center;
+        background-size: 400px;
+    }
+}
+@media only screen and (min-width: 660px) {
+    #insideWat {
+        background-image: url(../images/iphoneRouteBig.png);
+        background-position: top 40px left 420px;
+        padding-bottom: 220px;
+        background-size: 490px;
+    }
+    #insideWat p {
+        width: 350px;
+    }
+    
+    
+    #download p {
+        display: block;
+        width: 50px;
+        float: left;
+    }
+    #google,
+    #ios {
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+        #iconen{
+        width: 800px;
+    }
+     #iconen div {
+        width:25%;
+    }
+    
+}
+
+@media only screen and (min-width: 960px) {
+    #insideWat {
+        background-image: url(../images/iphoneRouteBig.png);
+        background-position: top 40px right 20px;
+        padding-bottom: 220px;
+        background-size: 490px;
+    }
+    #insideWat p {
+        width: 40%;
+    }
+    #insideDemo {
+        background-position: top 150px center;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    header {
+        padding-bottom: 120px;
+    }
+    #watH2 h2,
+    #hoeH2 h2,
+    #demoH2 h2 {
+        width: 969px;
+        margin: 0 auto;
+    }
+    #insideWat,
+    #insideHoe, 
+    #insideDemo {
+        width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+/*-----------------------------*/
+
+#bodyDemo{
+    background-color: #F79352;
+}
+
+iframe{
+    display: block;
+    margin:2em auto 0 auto;
+}
+#terug{
+    margin: 0 auto
+}
+
+#error{
+
+}
