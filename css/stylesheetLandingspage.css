@@ -153,6 +153,14 @@ footer p {
 .clearfix {
     clear: both;
 }
+@media only screen and (min-width: 360px) {
+    #insideWat {
+        background-position: top 260px center;
+        padding-bottom: 360px;
+        background-size: 280px;
+    }
+}
+
 @media only screen and (min-width: 375px) {
     #insideWat {
         background-position: top 260px center;
